@@ -1,0 +1,1100 @@
+10-14-2020 @ 10:25:53 - Debug Cielo: Array
+(
+    [MerchantOrderId] => 00000014449
+    [Customer] => Array
+        (
+            [Name] => KAREN LUGON
+            [Identity] => 02963446721
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => RUA GAVIAO PEIXOTO
+                    [Number] => 70
+                    [District] => ICARAI
+                    [Complement] => 1105
+                    [ZipCode] => 24230100
+                    [City] => NITEROI
+                    [State] => RJ
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => Boleto
+            [BoletoNumber] => 000030838
+            [Amount] => 21528
+            [Address] => DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP
+            [Assignor] => MANUSCRITO CONFECCOES EIRELI - ME
+            [Identification] => 11240412000115
+            [Provider] => BancodoBrasil2
+            [ExpirationDate] => 2020-10-19
+            [Instructions] => REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.
+        )
+
+)
+
+10-14-2020 @ 10:25:53 - Resultado: RestClient Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => 426b7f2b-19e4-4fee-aa06-5a061b9b6273
+                    [MerchantKey] => ZbxpGCnRgVd5FgSkvS7QcgXsnH2tsIyHitTu7Mee
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #947
+    [response] => {"MerchantOrderId":"00000014449","Customer":{"Name":"KAREN LUGON","Identity":"02963446721","IdentityType":"CPF","Address":{"Street":"RUA GAVIAO PEIXOTO","Number":"70","Complement":"1105","ZipCode":"24230100","City":"NITEROI","State":"RJ","Country":"BR","District":"ICARAI"}},"Payment":{"Instructions":"REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.","ExpirationDate":"2020-10-19","Url":"https://transaction.pagador.com.br/post/pagador/reenvia.asp/d320fd51-82cb-4142-b85f-ea823cb884d0","BoletoNumber":"0000030838","BarCodeNumber":"","DigitableLine":"","Assignor":"MANUSCRITO CONFECCOES EIRELI - ME","Address":"DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP","Identification":"11240412000115","ProviderReturnCode":"0","ProviderReturnMessage":"Transação criada com sucesso","Bank":0,"Amount":21528,"ReceivedDate":"2020-10-14 10:25:49","Provider":"BancoDoBrasil2","Status":1,"IsSplitted":false,"ReturnMessage":"Transação criada com sucesso","ReturnCode":"0","PaymentId":"d320fd51-82cb-4142-b85f-ea823cb884d0","Type":"Boleto","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/d320fd51-82cb-4142-b85f-ea823cb884d0"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 531
+            [request_size] => 887
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 4.908651
+            [namelookup_time] => 0.004173
+            [connect_time] => 0.126733
+            [pretransfer_time] => 0.361586
+            [size_upload] => 608
+            [size_download] => 1197
+            [speed_download] => 243
+            [speed_upload] => 123
+            [download_content_length] => 1197
+            [upload_content_length] => 608
+            [starttransfer_time] => 4.908616
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 191.232.52.242
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.241.130.41
+            [local_port] => 59876
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClient:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+10-14-2020 @ 14:40:29 - Debug Cielo: Array
+(
+    [MerchantOrderId] => 00000014452
+    [Customer] => Array
+        (
+            [Name] => NATALIE ROMANAUSKAS
+            [Identity] => 35173657855
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => RUA WASHINGTON LUIS
+                    [Number] => 330
+                    [District] => REPRESA
+                    [Complement] => 
+                    [ZipCode] => 09416550
+                    [City] => RIBEIRAO PIRES
+                    [State] => SP
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => Boleto
+            [BoletoNumber] => 000030841
+            [Amount] => 18210
+            [Address] => DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP
+            [Assignor] => MANUSCRITO CONFECCOES EIRELI - ME
+            [Identification] => 11240412000115
+            [Provider] => BancodoBrasil2
+            [ExpirationDate] => 2020-10-19
+            [Instructions] => REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.
+        )
+
+)
+
+10-14-2020 @ 14:40:29 - Resultado: RestClient Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => 426b7f2b-19e4-4fee-aa06-5a061b9b6273
+                    [MerchantKey] => ZbxpGCnRgVd5FgSkvS7QcgXsnH2tsIyHitTu7Mee
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #944
+    [response] => {"MerchantOrderId":"00000014452","Customer":{"Name":"NATALIE ROMANAUSKAS","Identity":"35173657855","IdentityType":"CPF","Address":{"Street":"RUA WASHINGTON LUIS","Number":"330","Complement":"","ZipCode":"09416550","City":"RIBEIRAO PIRES","State":"SP","Country":"BR","District":"REPRESA"}},"Payment":{"Instructions":"REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.","ExpirationDate":"2020-10-19","Url":"https://transaction.pagador.com.br/post/pagador/reenvia.asp/79763e89-424b-4363-9c58-27db1bd561a2","BoletoNumber":"0000030841","BarCodeNumber":"","DigitableLine":"","Assignor":"MANUSCRITO CONFECCOES EIRELI - ME","Address":"DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP","Identification":"11240412000115","ProviderReturnCode":"0","ProviderReturnMessage":"Transação criada com sucesso","Bank":0,"Amount":18210,"ReceivedDate":"2020-10-14 14:40:28","Provider":"BancoDoBrasil2","Status":1,"IsSplitted":false,"ReturnMessage":"Transação criada com sucesso","ReturnCode":"0","PaymentId":"79763e89-424b-4363-9c58-27db1bd561a2","Type":"Boleto","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/79763e89-424b-4363-9c58-27db1bd561a2"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 530
+            [request_size] => 901
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.808365
+            [namelookup_time] => 0.004194
+            [connect_time] => 0.119039
+            [pretransfer_time] => 0.361695
+            [size_upload] => 622
+            [size_download] => 1211
+            [speed_download] => 1498
+            [speed_upload] => 769
+            [download_content_length] => 1211
+            [upload_content_length] => 622
+            [starttransfer_time] => 0.808333
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 191.232.52.242
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.241.130.41
+            [local_port] => 33582
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClient:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+10-14-2020 @ 15:16:56 - Debug Cielo: Array
+(
+    [MerchantOrderId] => 00000014453
+    [Customer] => Array
+        (
+            [Name] => TATIANA AMORIM GUIMARAES DA CUNHA
+            [Identity] => 46482857191
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => AVENIDA FERNANDO CORREA DA COSTA
+                    [Number] => 1233
+                    [District] => CENTRO
+                    [Complement] => Sala 8 Térreo
+                    [ZipCode] => 79002820
+                    [City] => CAMPO GRANDE
+                    [State] => MS
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => Boleto
+            [BoletoNumber] => 000030842
+            [Amount] => 21528
+            [Address] => DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP
+            [Assignor] => MANUSCRITO CONFECCOES EIRELI - ME
+            [Identification] => 11240412000115
+            [Provider] => BancodoBrasil2
+            [ExpirationDate] => 2020-10-19
+            [Instructions] => REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.
+        )
+
+)
+
+10-14-2020 @ 15:16:56 - Resultado: RestClient Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => 426b7f2b-19e4-4fee-aa06-5a061b9b6273
+                    [MerchantKey] => ZbxpGCnRgVd5FgSkvS7QcgXsnH2tsIyHitTu7Mee
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #949
+    [response] => [
+  {
+    "Code": 242,
+    "Message": "Required boleto data not supported"
+  }
+]
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json
+            [http_code] => 400
+            [header_size] => 415
+            [request_size] => 944
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.707705
+            [namelookup_time] => 0.004167
+            [connect_time] => 0.117838
+            [pretransfer_time] => 0.354139
+            [size_upload] => 665
+            [size_download] => 85
+            [speed_download] => 120
+            [speed_upload] => 940
+            [download_content_length] => 85
+            [upload_content_length] => 665
+            [starttransfer_time] => 0.707675
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 191.232.52.242
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.241.130.41
+            [local_port] => 33882
+        )
+
+    [error] => 
+    [status] => 400
+    [decoded_response] => 
+    [iterator_positon:RestClient:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+10-14-2020 @ 15:16:56 - Erro Cielo Pedido: 14453 em 14/10/2020 18:16:56
+10-14-2020 @ 15:16:56 - Mensagem: 242 - Required boleto data not supported
+10-14-2020 @ 15:16:56 - Log: Array
+(
+    [mensagem] => Required boleto data not supported
+    [codigo] => 242
+)
+
+10-14-2020 @ 15:17:36 - Debug Cielo: Array
+(
+    [MerchantOrderId] => 00000014453
+    [Customer] => Array
+        (
+            [Name] => TATIANA AMORIM GUIMARAES DA CUNHA
+            [Identity] => 46482857191
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => AVENIDA FERNANDO CORREA DA COSTA
+                    [Number] => 1233
+                    [District] => CENTRO
+                    [Complement] => Sala 8 Térreo
+                    [ZipCode] => 79002820
+                    [City] => CAMPO GRANDE
+                    [State] => MS
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => Boleto
+            [BoletoNumber] => 000030842
+            [Amount] => 21528
+            [Address] => DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP
+            [Assignor] => MANUSCRITO CONFECCOES EIRELI - ME
+            [Identification] => 11240412000115
+            [Provider] => BancodoBrasil2
+            [ExpirationDate] => 2020-10-19
+            [Instructions] => REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.
+        )
+
+)
+
+10-14-2020 @ 15:17:36 - Resultado: RestClient Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => 426b7f2b-19e4-4fee-aa06-5a061b9b6273
+                    [MerchantKey] => ZbxpGCnRgVd5FgSkvS7QcgXsnH2tsIyHitTu7Mee
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #893
+    [response] => [
+  {
+    "Code": 242,
+    "Message": "Required boleto data not supported"
+  }
+]
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json
+            [http_code] => 400
+            [header_size] => 415
+            [request_size] => 944
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.507295
+            [namelookup_time] => 0.004192
+            [connect_time] => 0.118482
+            [pretransfer_time] => 0.355915
+            [size_upload] => 665
+            [size_download] => 85
+            [speed_download] => 167
+            [speed_upload] => 1311
+            [download_content_length] => 85
+            [upload_content_length] => 665
+            [starttransfer_time] => 0.507268
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 191.232.52.242
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.241.130.41
+            [local_port] => 33896
+        )
+
+    [error] => 
+    [status] => 400
+    [decoded_response] => 
+    [iterator_positon:RestClient:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+10-14-2020 @ 15:17:36 - Erro Cielo Pedido: 14453 em 14/10/2020 18:17:36
+10-14-2020 @ 15:17:36 - Mensagem: 242 - Required boleto data not supported
+10-14-2020 @ 15:17:36 - Log: Array
+(
+    [mensagem] => Required boleto data not supported
+    [codigo] => 242
+)
+
+10-14-2020 @ 15:18:17 - Debug Cielo: Array
+(
+    [MerchantOrderId] => 00000014453
+    [Customer] => Array
+        (
+            [Name] => TATIANA AMORIM GUIMARAES DA CUNHA
+            [Identity] => 46482857191
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => AVENIDA FERNANDO CORREA DA COSTA
+                    [Number] => 1233
+                    [District] => CENTRO
+                    [Complement] => Sala 8 Térreo
+                    [ZipCode] => 79002820
+                    [City] => CAMPO GRANDE
+                    [State] => MS
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => Boleto
+            [BoletoNumber] => 000030842
+            [Amount] => 21528
+            [Address] => DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP
+            [Assignor] => MANUSCRITO CONFECCOES EIRELI - ME
+            [Identification] => 11240412000115
+            [Provider] => BancodoBrasil2
+            [ExpirationDate] => 2020-10-19
+            [Instructions] => REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.
+        )
+
+)
+
+10-14-2020 @ 15:18:17 - Resultado: RestClient Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => 426b7f2b-19e4-4fee-aa06-5a061b9b6273
+                    [MerchantKey] => ZbxpGCnRgVd5FgSkvS7QcgXsnH2tsIyHitTu7Mee
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #894
+    [response] => [
+  {
+    "Code": 242,
+    "Message": "Required boleto data not supported"
+  }
+]
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json
+            [http_code] => 400
+            [header_size] => 415
+            [request_size] => 944
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.530747
+            [namelookup_time] => 0.012266
+            [connect_time] => 0.125966
+            [pretransfer_time] => 0.379792
+            [size_upload] => 665
+            [size_download] => 85
+            [speed_download] => 160
+            [speed_upload] => 1254
+            [download_content_length] => 85
+            [upload_content_length] => 665
+            [starttransfer_time] => 0.53072
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 191.232.52.242
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.241.130.41
+            [local_port] => 33912
+        )
+
+    [error] => 
+    [status] => 400
+    [decoded_response] => 
+    [iterator_positon:RestClient:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+10-14-2020 @ 15:18:17 - Erro Cielo Pedido: 14453 em 14/10/2020 18:18:17
+10-14-2020 @ 15:18:17 - Mensagem: 242 - Required boleto data not supported
+10-14-2020 @ 15:18:17 - Log: Array
+(
+    [mensagem] => Required boleto data not supported
+    [codigo] => 242
+)
+
+10-14-2020 @ 15:20:01 - Debug Cielo: Array
+(
+    [MerchantOrderId] => 00000014453
+    [Customer] => Array
+        (
+            [Name] => THALITA LEITE GERBAUDO
+            [Identity] => 46482857191
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => AVENIDA FERNANDO CORREA DA COSTA
+                    [Number] => 1233
+                    [District] => CENTRO
+                    [Complement] => Sala 8 Térreo
+                    [ZipCode] => 79002820
+                    [City] => CAMPO GRANDE
+                    [State] => MS
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => Boleto
+            [BoletoNumber] => 000030842
+            [Amount] => 21528
+            [Address] => DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP
+            [Assignor] => MANUSCRITO CONFECCOES EIRELI - ME
+            [Identification] => 11240412000115
+            [Provider] => BancodoBrasil2
+            [ExpirationDate] => 2020-10-19
+            [Instructions] => REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.
+        )
+
+)
+
+10-14-2020 @ 15:20:01 - Resultado: RestClient Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => 426b7f2b-19e4-4fee-aa06-5a061b9b6273
+                    [MerchantKey] => ZbxpGCnRgVd5FgSkvS7QcgXsnH2tsIyHitTu7Mee
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #894
+    [response] => [
+  {
+    "Code": 242,
+    "Message": "Required boleto data not supported"
+  }
+]
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json
+            [http_code] => 400
+            [header_size] => 415
+            [request_size] => 933
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.523574
+            [namelookup_time] => 0.004191
+            [connect_time] => 0.118292
+            [pretransfer_time] => 0.362404
+            [size_upload] => 654
+            [size_download] => 85
+            [speed_download] => 162
+            [speed_upload] => 1250
+            [download_content_length] => 85
+            [upload_content_length] => 654
+            [starttransfer_time] => 0.523521
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 191.232.52.242
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.241.130.41
+            [local_port] => 33932
+        )
+
+    [error] => 
+    [status] => 400
+    [decoded_response] => 
+    [iterator_positon:RestClient:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+10-14-2020 @ 15:20:01 - Erro Cielo Pedido: 14453 em 14/10/2020 18:20:01
+10-14-2020 @ 15:20:01 - Mensagem: 242 - Required boleto data not supported
+10-14-2020 @ 15:20:01 - Log: Array
+(
+    [mensagem] => Required boleto data not supported
+    [codigo] => 242
+)
+
+10-14-2020 @ 15:20:46 - Debug Cielo: Array
+(
+    [MerchantOrderId] => 00000014453
+    [Customer] => Array
+        (
+            [Name] => THALITA LEITE GERBAUDO
+            [Identity] => 02207726142
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => AVENIDA FERNANDO CORREA DA COSTA
+                    [Number] => 1233
+                    [District] => CENTRO
+                    [Complement] => Sala 8 Térreo
+                    [ZipCode] => 79002820
+                    [City] => CAMPO GRANDE
+                    [State] => MS
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => Boleto
+            [BoletoNumber] => 000030842
+            [Amount] => 21528
+            [Address] => DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP
+            [Assignor] => MANUSCRITO CONFECCOES EIRELI - ME
+            [Identification] => 11240412000115
+            [Provider] => BancodoBrasil2
+            [ExpirationDate] => 2020-10-19
+            [Instructions] => REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.
+        )
+
+)
+
+10-14-2020 @ 15:20:46 - Resultado: RestClient Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => 426b7f2b-19e4-4fee-aa06-5a061b9b6273
+                    [MerchantKey] => ZbxpGCnRgVd5FgSkvS7QcgXsnH2tsIyHitTu7Mee
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #894
+    [response] => [
+  {
+    "Code": 242,
+    "Message": "Required boleto data not supported"
+  }
+]
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json
+            [http_code] => 400
+            [header_size] => 415
+            [request_size] => 933
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.515933
+            [namelookup_time] => 0.004199
+            [connect_time] => 0.120633
+            [pretransfer_time] => 0.360403
+            [size_upload] => 654
+            [size_download] => 85
+            [speed_download] => 165
+            [speed_upload] => 1269
+            [download_content_length] => 85
+            [upload_content_length] => 654
+            [starttransfer_time] => 0.515898
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 191.232.52.242
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.241.130.41
+            [local_port] => 33952
+        )
+
+    [error] => 
+    [status] => 400
+    [decoded_response] => 
+    [iterator_positon:RestClient:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+10-14-2020 @ 15:20:46 - Erro Cielo Pedido: 14453 em 14/10/2020 18:20:46
+10-14-2020 @ 15:20:46 - Mensagem: 242 - Required boleto data not supported
+10-14-2020 @ 15:20:46 - Log: Array
+(
+    [mensagem] => Required boleto data not supported
+    [codigo] => 242
+)
+
+10-14-2020 @ 15:29:28 - Debug Cielo: Array
+(
+    [MerchantOrderId] => 00000014454
+    [Customer] => Array
+        (
+            [Name] => NATALIE ROMANAUSKAS
+            [Identity] => 35173657855
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => RUA WASHINGTON LUIS
+                    [Number] => 330
+                    [District] => REPRESA
+                    [Complement] => 
+                    [ZipCode] => 09416550
+                    [City] => RIBEIRAO PIRES
+                    [State] => SP
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => Boleto
+            [BoletoNumber] => 000030843
+            [Amount] => 18375
+            [Address] => DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP
+            [Assignor] => MANUSCRITO CONFECCOES EIRELI - ME
+            [Identification] => 11240412000115
+            [Provider] => BancodoBrasil2
+            [ExpirationDate] => 2020-10-19
+            [Instructions] => REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.
+        )
+
+)
+
+10-14-2020 @ 15:29:28 - Resultado: RestClient Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => 426b7f2b-19e4-4fee-aa06-5a061b9b6273
+                    [MerchantKey] => ZbxpGCnRgVd5FgSkvS7QcgXsnH2tsIyHitTu7Mee
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #918
+    [response] => {"MerchantOrderId":"00000014454","Customer":{"Name":"NATALIE ROMANAUSKAS","Identity":"35173657855","IdentityType":"CPF","Address":{"Street":"RUA WASHINGTON LUIS","Number":"330","Complement":"","ZipCode":"09416550","City":"RIBEIRAO PIRES","State":"SP","Country":"BR","District":"REPRESA"}},"Payment":{"Instructions":"REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.","ExpirationDate":"2020-10-19","Url":"https://transaction.pagador.com.br/post/pagador/reenvia.asp/fd780423-27f4-4749-901b-25d096f00bb8","BoletoNumber":"0000030843","BarCodeNumber":"","DigitableLine":"","Assignor":"MANUSCRITO CONFECCOES EIRELI - ME","Address":"DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP","Identification":"11240412000115","ProviderReturnCode":"0","ProviderReturnMessage":"Transação criada com sucesso","Bank":0,"Amount":18375,"ReceivedDate":"2020-10-14 15:29:27","Provider":"BancoDoBrasil2","Status":1,"IsSplitted":false,"ReturnMessage":"Transação criada com sucesso","ReturnCode":"0","PaymentId":"fd780423-27f4-4749-901b-25d096f00bb8","Type":"Boleto","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/fd780423-27f4-4749-901b-25d096f00bb8"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 530
+            [request_size] => 901
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.817763
+            [namelookup_time] => 0.012291
+            [connect_time] => 0.126343
+            [pretransfer_time] => 0.364816
+            [size_upload] => 622
+            [size_download] => 1211
+            [speed_download] => 1482
+            [speed_upload] => 761
+            [download_content_length] => 1211
+            [upload_content_length] => 622
+            [starttransfer_time] => 0.817734
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 191.232.52.242
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.241.130.41
+            [local_port] => 34178
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClient:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+10-14-2020 @ 19:08:13 - Debug Cielo: Array
+(
+    [MerchantOrderId] => 00000014457
+    [Customer] => Array
+        (
+            [Name] => SUZEL MOREIRA SAAD
+            [Identity] => 16969161862
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => RUA PARA
+                    [Number] => 50
+                    [District] => CONSOLACAO
+                    [Complement] => Cj 31
+                    [ZipCode] => 01243020
+                    [City] => SAO PAULO
+                    [State] => SP
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => Boleto
+            [BoletoNumber] => 000030846
+            [Amount] => 38110
+            [Address] => DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP
+            [Assignor] => MANUSCRITO CONFECCOES EIRELI - ME
+            [Identification] => 11240412000115
+            [Provider] => BancodoBrasil2
+            [ExpirationDate] => 2020-10-19
+            [Instructions] => REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.
+        )
+
+)
+
+10-14-2020 @ 19:08:13 - Resultado: RestClient Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => 426b7f2b-19e4-4fee-aa06-5a061b9b6273
+                    [MerchantKey] => ZbxpGCnRgVd5FgSkvS7QcgXsnH2tsIyHitTu7Mee
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #922
+    [response] => {"MerchantOrderId":"00000014457","Customer":{"Name":"SUZEL MOREIRA SAAD","Identity":"16969161862","IdentityType":"CPF","Address":{"Street":"RUA PARA","Number":"50","Complement":"Cj 31","ZipCode":"01243020","City":"SAO PAULO","State":"SP","Country":"BR","District":"CONSOLACAO"}},"Payment":{"Instructions":"REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.","ExpirationDate":"2020-10-19","Url":"https://transaction.pagador.com.br/post/pagador/reenvia.asp/5e9290cd-c9d3-48af-82a2-adae1f09aca6","BoletoNumber":"0000030846","BarCodeNumber":"","DigitableLine":"","Assignor":"MANUSCRITO CONFECCOES EIRELI - ME","Address":"DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP","Identification":"11240412000115","ProviderReturnCode":"0","ProviderReturnMessage":"Transação criada com sucesso","Bank":0,"Amount":38110,"ReceivedDate":"2020-10-14 19:08:13","Provider":"BancoDoBrasil2","Status":1,"IsSplitted":false,"ReturnMessage":"Transação criada com sucesso","ReturnCode":"0","PaymentId":"5e9290cd-c9d3-48af-82a2-adae1f09aca6","Type":"Boleto","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/5e9290cd-c9d3-48af-82a2-adae1f09aca6"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 530
+            [request_size] => 891
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.740385
+            [namelookup_time] => 0.004149
+            [connect_time] => 0.11648
+            [pretransfer_time] => 0.35082
+            [size_upload] => 612
+            [size_download] => 1201
+            [speed_download] => 1622
+            [speed_upload] => 827
+            [download_content_length] => 1201
+            [upload_content_length] => 612
+            [starttransfer_time] => 0.740352
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 191.232.52.242
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.241.130.41
+            [local_port] => 36650
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClient:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

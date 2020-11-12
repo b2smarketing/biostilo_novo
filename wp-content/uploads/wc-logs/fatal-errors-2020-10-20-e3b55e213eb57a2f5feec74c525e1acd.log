@@ -1,0 +1,54 @@
+2020-10-20T01:00:42+00:00 CRITICAL Uncaught Error: Call to undefined function wwc_get_product() in /var/www/biostilo/wp-content/themes/oxelar/include/wooajax.php:24
+Stack trace:
+#0 /var/www/biostilo/wp-includes/class-wp-hook.php(287): product_quickview('')
+#1 /var/www/biostilo/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /var/www/biostilo/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/biostilo/wp-admin/admin-ajax.php(191): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown, em /var/www/biostilo/wp-content/themes/oxelar/include/wooajax.php, na linha 24
+
+2020-10-20T14:45:31+00:00 CRITICAL Uncaught Error: Call to undefined function wwc_get_product() in /var/www/biostilo/wp-content/themes/oxelar/include/wooajax.php:24
+Stack trace:
+#0 /var/www/biostilo/wp-includes/class-wp-hook.php(287): product_quickview('')
+#1 /var/www/biostilo/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /var/www/biostilo/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/biostilo/wp-admin/admin-ajax.php(191): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown, em /var/www/biostilo/wp-content/themes/oxelar/include/wooajax.php, na linha 24
+
+2020-10-20T18:40:19+00:00 CRITICAL Uncaught Error: Call to undefined function wwc_get_product() in /var/www/biostilo/wp-content/themes/oxelar/include/wooajax.php:24
+Stack trace:
+#0 /var/www/biostilo/wp-includes/class-wp-hook.php(287): product_quickview('')
+#1 /var/www/biostilo/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /var/www/biostilo/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/biostilo/wp-admin/admin-ajax.php(191): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown, em /var/www/biostilo/wp-content/themes/oxelar/include/wooajax.php, na linha 24
+
+2020-10-20T21:10:25+00:00 CRITICAL Uncaught Error: Call to undefined function wwc_get_product() in /var/www/biostilo/wp-content/themes/oxelar/include/wooajax.php:24
+Stack trace:
+#0 /var/www/biostilo/wp-includes/class-wp-hook.php(287): product_quickview('')
+#1 /var/www/biostilo/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /var/www/biostilo/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/biostilo/wp-admin/admin-ajax.php(191): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown, em /var/www/biostilo/wp-content/themes/oxelar/include/wooajax.php, na linha 24
+
+2020-10-20T22:27:27+00:00 CRITICAL Uncaught Error: Call to undefined function wwc_get_product() in /var/www/biostilo/wp-content/themes/oxelar/include/wooajax.php:24
+Stack trace:
+#0 /var/www/biostilo/wp-includes/class-wp-hook.php(287): product_quickview('')
+#1 /var/www/biostilo/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /var/www/biostilo/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/biostilo/wp-admin/admin-ajax.php(191): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown, em /var/www/biostilo/wp-content/themes/oxelar/include/wooajax.php, na linha 24
+
+2020-10-20T23:55:44+00:00 CRITICAL Uncaught Error: Call to undefined function wwc_get_product() in /var/www/biostilo/wp-content/themes/oxelar/include/wooajax.php:24
+Stack trace:
+#0 /var/www/biostilo/wp-includes/class-wp-hook.php(287): product_quickview('')
+#1 /var/www/biostilo/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /var/www/biostilo/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/biostilo/wp-admin/admin-ajax.php(191): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown, em /var/www/biostilo/wp-content/themes/oxelar/include/wooajax.php, na linha 24
+

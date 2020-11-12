@@ -1,0 +1,606 @@
+10-16-2020 @ 21:36:01 - Debug Cielo: Array
+(
+    [MerchantOrderId] => 14461
+    [Customer] => Array
+        (
+            [Name] => LUIS FERNANDO DOMENECH
+            [Email] => drluisfernandodomenech@hotmail.com
+            [Identity] => 26224900892
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => AV DR AUGUSTO DE TOLEDO,
+                    [Number] => 802
+                    [District] => SANTA PAULA
+                    [Complement] => APTO.71
+                    [ZipCode] => 09540080
+                    [City] => SAO CAETANO DO SUL
+                    [State] => SP
+                    [Country] => BR
+                )
+
+            [DeliveryAddress] => Array
+                (
+                    [Street] => AV DR AUGUSTO DE TOLEDO,
+                    [Number] => 802
+                    [District] => SANTA PAULA
+                    [Complement] => APTO.71
+                    [ZipCode] => 09540080
+                    [City] => SAO CAETANO DO SUL
+                    [State] => SP
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 35275
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 3
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => BIOSTILO
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 5300490243582078
+                    [Holder] => NILCE M S DOMENECH
+                    [ExpirationDate] => 08/2027
+                    [SecurityCode] => 315
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+            [FraudAnalysis] => Array
+                (
+                    [Provider] => cybersource
+                    [Sequence] => AuthorizeFirst
+                    [SequenceCriteria] => OnSuccess
+                    [CaptureOnLowRisk] => true
+                    [VoidOnHighRisk] => true
+                    [TotalOrderAmount] => 35275
+                    [FingerPrintId] => 2b8e644c7e0c585d43091555829bcd6e20201017003257
+                    [Browser] => Array
+                        (
+                            [CookiesAccepted] => 1
+                            [Email] => drluisfernandodomenech@hotmail.com
+                            [IpAddress] => 189.54.219.12
+                            [Type] => mozilla/5.0 (windows nt 10.0; win64; x6
+                        )
+
+                    [Cart] => Array
+                        (
+                            [IsGift] => false
+                            [ReturnsAccepted] => true
+                            [Items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => Jaleco Gênova
+                                            [Quantity] => 2
+                                            [Sku] => 7750
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 16400
+                                            [Risk] => Normal
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+10-16-2020 @ 21:36:01 - Resultado: RestClient Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => 426b7f2b-19e4-4fee-aa06-5a061b9b6273
+                    [MerchantKey] => ZbxpGCnRgVd5FgSkvS7QcgXsnH2tsIyHitTu7Mee
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #894
+    [response] => {"MerchantOrderId":"14461","Customer":{"Name":"LUIS FERNANDO DOMENECH","Identity":"26224900892","IdentityType":"CPF","Email":"drluisfernandodomenech@hotmail.com","Address":{"Street":"AV DR AUGUSTO DE TOLEDO,","Number":"802","Complement":"APTO.71","ZipCode":"09540080","City":"SAO CAETANO DO SUL","State":"SP","Country":"BR","District":"SANTA PAULA"},"DeliveryAddress":{"Street":"AV DR AUGUSTO DE TOLEDO,","Number":"802","Complement":"APTO.71","ZipCode":"09540080","City":"SAO CAETANO DO SUL","State":"SP","Country":"BR","District":"SANTA PAULA"}},"Payment":{"ServiceTaxAmount":0,"Installments":3,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"530049******2078","Holder":"NILCE M S DOMENECH","ExpirationDate":"08/2027","SaveCard":false,"Brand":"Master","PaymentAccountReference":"50016VXZO7BHE6ABAYQUXIIHONMBE"},"Tid":"102681432108E2RBQ7UE","ProofOfSale":"323002","AuthorizationCode":"094160","SoftDescriptor":"BIOSTILO","Provider":"Cielo","Eci":"0","FraudAnalysis":{"Status":4,"StatusDescription":"Aborted","Sequence":"AuthorizeFirst","SequenceCriteria":"OnSuccess","TotalOrderAmount":35275,"TransactionAmount":0,"FingerPrintId":"2b8e644c7e0c585d43091555829bcd6e20201017003257","Cart":{"IsGift":false,"ReturnsAccepted":true,"Items":[{"Type":3,"Name":"Jaleco Gênova","Risk":2,"Sku":"7750","OriginalPrice":0,"UnitPrice":16400,"Quantity":2,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0}]},"Browser":{"CookiesAccepted":true,"Email":"drluisfernandodomenech@hotmail.com","Type":"mozilla/5.0 (windows nt 10.0; win64; x6","IpAddress":"189.54.219.12"},"CaptureOnLowRisk":true,"VoidOnHighRisk":true,"Provider":"Cybersource","IsRetryTransaction":false},"IsQrCode":false,"Amount":35275,"ReceivedDate":"2020-10-16 21:36:00","CapturedAmount":35275,"CapturedDate":"2020-10-16 21:36:01","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"6e1c96cb-df4a-4b08-beee-db11ad3e091e","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/6e1c96cb-df4a-4b08-beee-db11ad3e091e"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/6e1c96cb-df4a-4b08-beee-db11ad3e091e/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 555
+            [request_size] => 302
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.538353
+            [namelookup_time] => 0.004217
+            [connect_time] => 0.116998
+            [pretransfer_time] => 0.350023
+            [size_upload] => 1670
+            [size_download] => 2389
+            [speed_download] => 1553
+            [speed_upload] => 1085
+            [download_content_length] => 2389
+            [upload_content_length] => 1670
+            [starttransfer_time] => 0.466045
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 191.232.52.242
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.241.130.41
+            [local_port] => 49812
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClient:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+10-16-2020 @ 22:01:18 - Debug Cielo: Array
+(
+    [MerchantOrderId] => 14462
+    [Customer] => Array
+        (
+            [Name] => Paula Fauza
+            [Email] => paulafauza@gmail.com
+            [Identity] => 13462923889
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => Rua Dr Fadlo Haidar
+                    [Number] => 139
+                    [District] => Vila Olimpia
+                    [Complement] => Ap 54
+                    [ZipCode] => 04545050
+                    [City] => São paulo
+                    [State] => SP
+                    [Country] => BR
+                )
+
+            [DeliveryAddress] => Array
+                (
+                    [Street] => Rua Dr Fadlo Haidar
+                    [Number] => 139
+                    [District] => Vila Olimpia
+                    [Complement] => Ap 54
+                    [ZipCode] => 04545050
+                    [City] => São paulo
+                    [State] => SP
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 21516
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 2
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => BIOSTILO
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 4066559900828961
+                    [Holder] => DRA P M HORSCHUTZ
+                    [ExpirationDate] => 08/2023
+                    [SecurityCode] => 478
+                    [SaveCard] => false
+                    [Brand] => Visa
+                )
+
+            [FraudAnalysis] => Array
+                (
+                    [Provider] => cybersource
+                    [Sequence] => AuthorizeFirst
+                    [SequenceCriteria] => OnSuccess
+                    [CaptureOnLowRisk] => true
+                    [VoidOnHighRisk] => true
+                    [TotalOrderAmount] => 21516
+                    [FingerPrintId] => 8412ef6879a317d36cba2e8d425b792e20201017005721
+                    [Browser] => Array
+                        (
+                            [CookiesAccepted] => 1
+                            [Email] => paulafauza@gmail.com
+                            [IpAddress] => 177.58.227.102
+                            [Type] => mozilla/5.0 (iphone; cpu iphone os 13_7
+                        )
+
+                    [Cart] => Array
+                        (
+                            [IsGift] => false
+                            [ReturnsAccepted] => true
+                            [Items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => Calça Feminina
+                                            [Quantity] => 1
+                                            [Sku] => 6946
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 7954
+                                            [Risk] => Normal
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => Calça Feminina
+                                            [Quantity] => 1
+                                            [Sku] => 6946
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 7954
+                                            [Risk] => Normal
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => Gorro Liso - U, Marinho
+                                            [Quantity] => 1
+                                            [Sku] => 7160
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 3298
+                                            [Risk] => Normal
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+10-16-2020 @ 22:01:18 - Resultado: RestClient Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => 426b7f2b-19e4-4fee-aa06-5a061b9b6273
+                    [MerchantKey] => ZbxpGCnRgVd5FgSkvS7QcgXsnH2tsIyHitTu7Mee
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #920
+    [response] => {"MerchantOrderId":"14462","Customer":{"Name":"Paula Fauza","Identity":"13462923889","IdentityType":"CPF","Email":"paulafauza@gmail.com","Address":{"Street":"Rua Dr Fadlo Haidar","Number":"139","Complement":"Ap 54","ZipCode":"04545050","City":"São paulo","State":"SP","Country":"BR","District":"Vila Olimpia"},"DeliveryAddress":{"Street":"Rua Dr Fadlo Haidar","Number":"139","Complement":"Ap 54","ZipCode":"04545050","City":"São paulo","State":"SP","Country":"BR","District":"Vila Olimpia"}},"Payment":{"ServiceTaxAmount":0,"Installments":2,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"406655******8961","Holder":"DRA P M HORSCHUTZ","ExpirationDate":"08/2023","SaveCard":false,"Brand":"Visa","PaymentAccountReference":"V0010013817277744323493521686"},"Tid":"102681432108E2RC9JVE","ProofOfSale":"322008","AuthorizationCode":"611826","SoftDescriptor":"BIOSTILO","Provider":"Cielo","Eci":"7","FraudAnalysis":{"Status":4,"StatusDescription":"Aborted","Sequence":"AuthorizeFirst","SequenceCriteria":"OnSuccess","TotalOrderAmount":21516,"TransactionAmount":0,"FingerPrintId":"8412ef6879a317d36cba2e8d425b792e20201017005721","Cart":{"IsGift":false,"ReturnsAccepted":true,"Items":[{"Type":3,"Name":"Calça Feminina","Risk":2,"Sku":"6946","OriginalPrice":0,"UnitPrice":7954,"Quantity":1,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0},{"Type":3,"Name":"Calça Feminina","Risk":2,"Sku":"6946","OriginalPrice":0,"UnitPrice":7954,"Quantity":1,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0},{"Type":3,"Name":"Gorro Liso - U, Marinho","Risk":2,"Sku":"7160","OriginalPrice":0,"UnitPrice":3298,"Quantity":1,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0}]},"Browser":{"CookiesAccepted":true,"Email":"paulafauza@gmail.com","Type":"mozilla/5.0 (iphone; cpu iphone os 13_7","IpAddress":"177.58.227.102"},"CaptureOnLowRisk":true,"VoidOnHighRisk":true,"Provider":"Cybersource","IsRetryTransaction":false},"IsQrCode":false,"Amount":21516,"ReceivedDate":"2020-10-16 22:01:17","CapturedAmount":21516,"CapturedDate":"2020-10-16 22:01:18","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"a936ddc5-17e4-4cdc-8755-1995a16be76e","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/a936ddc5-17e4-4cdc-8755-1995a16be76e"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/a936ddc5-17e4-4cdc-8755-1995a16be76e/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 556
+            [request_size] => 302
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.759963
+            [namelookup_time] => 0.004195
+            [connect_time] => 0.117447
+            [pretransfer_time] => 0.350747
+            [size_upload] => 2107
+            [size_download] => 2828
+            [speed_download] => 1607
+            [speed_upload] => 1197
+            [download_content_length] => 2828
+            [upload_content_length] => 2107
+            [starttransfer_time] => 0.467722
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 191.232.52.242
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.241.130.41
+            [local_port] => 50004
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClient:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+10-17-2020 @ 14:49:45 - Debug Cielo: Array
+(
+    [MerchantOrderId] => 14463
+    [Customer] => Array
+        (
+            [Name] => Mariana Sadalla
+            [Email] => marianadeandrade@gmail.com
+            [Identity] => 21585469807
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => Rua José Maria Lisboa
+                    [Number] => 331
+                    [District] => Jardim Paulista
+                    [Complement] => ap. 112
+                    [ZipCode] => 01423001
+                    [City] => São Paulo
+                    [State] => SP
+                    [Country] => BR
+                )
+
+            [DeliveryAddress] => Array
+                (
+                    [Street] => Rua José Maria Lisboa
+                    [Number] => 331
+                    [District] => Jardim Paulista
+                    [Complement] => ap. 112
+                    [ZipCode] => 01423001
+                    [City] => São Paulo
+                    [State] => SP
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 44262
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 2
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => BIOSTILO
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 5536360683629083
+                    [Holder] => JOSE CARLOS SADALLA
+                    [ExpirationDate] => 02/2028
+                    [SecurityCode] => 256
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+            [FraudAnalysis] => Array
+                (
+                    [Provider] => cybersource
+                    [Sequence] => AuthorizeFirst
+                    [SequenceCriteria] => OnSuccess
+                    [CaptureOnLowRisk] => true
+                    [VoidOnHighRisk] => true
+                    [TotalOrderAmount] => 44262
+                    [FingerPrintId] => 7cd190d0895005fa993af0017f5632a520201017174716
+                    [Browser] => Array
+                        (
+                            [CookiesAccepted] => 1
+                            [Email] => marianadeandrade@gmail.com
+                            [IpAddress] => 177.33.34.23
+                            [Type] => mozilla/5.0 (iphone; cpu iphone os 13_7
+                        )
+
+                    [Cart] => Array
+                        (
+                            [IsGift] => false
+                            [ReturnsAccepted] => true
+                            [Items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => Jaleco Heras
+                                            [Quantity] => 1
+                                            [Sku] => 6612
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 20800
+                                            [Risk] => Normal
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => Jaleco Heras Class
+                                            [Quantity] => 1
+                                            [Sku] => 6829
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 20800
+                                            [Risk] => Normal
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+10-17-2020 @ 14:49:45 - Resultado: RestClient Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => 426b7f2b-19e4-4fee-aa06-5a061b9b6273
+                    [MerchantKey] => ZbxpGCnRgVd5FgSkvS7QcgXsnH2tsIyHitTu7Mee
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #928
+    [response] => {"MerchantOrderId":"14463","Customer":{"Name":"Mariana Sadalla","Identity":"21585469807","IdentityType":"CPF","Email":"marianadeandrade@gmail.com","Address":{"Street":"Rua José Maria Lisboa","Number":"331","Complement":"ap. 112","ZipCode":"01423001","City":"São Paulo","State":"SP","Country":"BR","District":"Jardim Paulista"},"DeliveryAddress":{"Street":"Rua José Maria Lisboa","Number":"331","Complement":"ap. 112","ZipCode":"01423001","City":"São Paulo","State":"SP","Country":"BR","District":"Jardim Paulista"}},"Payment":{"ServiceTaxAmount":0,"Installments":2,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"553636******9083","Holder":"JOSE CARLOS SADALLA","ExpirationDate":"02/2028","SaveCard":false,"Brand":"Master"},"Tid":"102681432108F0M5BQBE","ProofOfSale":"324000","AuthorizationCode":"025267","SoftDescriptor":"BIOSTILO","Provider":"Cielo","Eci":"0","FraudAnalysis":{"Status":4,"StatusDescription":"Aborted","Sequence":"AuthorizeFirst","SequenceCriteria":"OnSuccess","TotalOrderAmount":44262,"TransactionAmount":0,"FingerPrintId":"7cd190d0895005fa993af0017f5632a520201017174716","Cart":{"IsGift":false,"ReturnsAccepted":true,"Items":[{"Type":3,"Name":"Jaleco Heras","Risk":2,"Sku":"6612","OriginalPrice":0,"UnitPrice":20800,"Quantity":1,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0},{"Type":3,"Name":"Jaleco Heras Class","Risk":2,"Sku":"6829","OriginalPrice":0,"UnitPrice":20800,"Quantity":1,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0}]},"Browser":{"CookiesAccepted":true,"Email":"marianadeandrade@gmail.com","Type":"mozilla/5.0 (iphone; cpu iphone os 13_7","IpAddress":"177.33.34.23"},"CaptureOnLowRisk":true,"VoidOnHighRisk":true,"Provider":"Cybersource","IsRetryTransaction":false},"IsQrCode":false,"Amount":44262,"ReceivedDate":"2020-10-17 14:49:44","CapturedAmount":44262,"CapturedDate":"2020-10-17 14:49:44","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"403bbfcb-fcc1-49ad-837f-215acc8f06d7","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/403bbfcb-fcc1-49ad-837f-215acc8f06d7"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/403bbfcb-fcc1-49ad-837f-215acc8f06d7/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 556
+            [request_size] => 302
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.697187
+            [namelookup_time] => 0.004185
+            [connect_time] => 0.119533
+            [pretransfer_time] => 0.364534
+            [size_upload] => 1892
+            [size_download] => 2548
+            [speed_download] => 1501
+            [speed_upload] => 1114
+            [download_content_length] => 2548
+            [upload_content_length] => 1892
+            [starttransfer_time] => 0.4842
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 191.232.52.242
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.241.130.41
+            [local_port] => 52760
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClient:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

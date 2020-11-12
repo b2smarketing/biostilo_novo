@@ -1,0 +1,202 @@
+10-16-2020 @ 20:16:39 - Debug Cielo: Array
+(
+    [MerchantOrderId] => 14460
+    [Customer] => Array
+        (
+            [Name] => Cinthya Girelli Rosa Machado
+            [Email] => cinthyagirellimachado@gmail.com
+            [Identity] => 98254839620
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => Travessa Vinte e Cinco de Agosto
+                    [Number] => 65
+                    [District] => Duque de Caxias
+                    [Complement] => Apto 903
+                    [ZipCode] => 78043382
+                    [City] => Cuiabá
+                    [State] => MT
+                    [Country] => BR
+                )
+
+            [DeliveryAddress] => Array
+                (
+                    [Street] => Travessa Vinte e Cinco de Agosto
+                    [Number] => 65
+                    [District] => Duque de Caxias
+                    [Complement] => Apto 903
+                    [ZipCode] => 78043382
+                    [City] => Cuiabá
+                    [State] => MT
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => CreditCard
+            [Amount] => 48594
+            [Currency] => BRL
+            [Country] => BRA
+            [Provider] => Cielo
+            [ServiceTaxAmount] => 0
+            [Installments] => 6
+            [Interest] => ByMerchant
+            [Capture] => true
+            [Authenticate] => false
+            [Recurrent] => false
+            [SoftDescriptor] => BIOSTILO
+            [CreditCard] => Array
+                (
+                    [CardNumber] => 5549063027446207
+                    [Holder] => CINTHYA GIRELLI ROSA MACHADO
+                    [ExpirationDate] => 05/2025
+                    [SecurityCode] => 843
+                    [SaveCard] => false
+                    [Brand] => Master
+                )
+
+            [FraudAnalysis] => Array
+                (
+                    [Provider] => cybersource
+                    [Sequence] => AuthorizeFirst
+                    [SequenceCriteria] => OnSuccess
+                    [CaptureOnLowRisk] => true
+                    [VoidOnHighRisk] => true
+                    [TotalOrderAmount] => 48594
+                    [FingerPrintId] => d41d8cd98f00b204e9800998ecf8427e20201016231416
+                    [Browser] => Array
+                        (
+                            [CookiesAccepted] => 1
+                            [Email] => cinthyagirellimachado@gmail.com
+                            [IpAddress] => 187.123.1.151
+                            [Type] => mozilla/5.0 (macintosh; intel mac os x 
+                        )
+
+                    [Cart] => Array
+                        (
+                            [IsGift] => false
+                            [ReturnsAccepted] => true
+                            [Items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => Jaleco Heras
+                                            [Quantity] => 1
+                                            [Sku] => 6612
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 20800
+                                            [Risk] => Normal
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [GiftCategory] => No
+                                            [HostHedge] => Normal
+                                            [NonSensicalHedge] => Normal
+                                            [ObscenitiesHedge] => Normal
+                                            [PhoneHedge] => Normal
+                                            [Type] => Default
+                                            [Name] => Jaleco Lyra
+                                            [Quantity] => 1
+                                            [Sku] => 6179
+                                            [TimeHedge] => Normal
+                                            [UnitPrice] => 21200
+                                            [Risk] => Normal
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+10-16-2020 @ 20:16:39 - Resultado: RestClient Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => 426b7f2b-19e4-4fee-aa06-5a061b9b6273
+                    [MerchantKey] => ZbxpGCnRgVd5FgSkvS7QcgXsnH2tsIyHitTu7Mee
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #947
+    [response] => {"MerchantOrderId":"14460","Customer":{"Name":"Cinthya Girelli Rosa Machado","Identity":"98254839620","IdentityType":"CPF","Email":"cinthyagirellimachado@gmail.com","Address":{"Street":"Travessa Vinte e Cinco de Agosto","Number":"65","Complement":"Apto 903","ZipCode":"78043382","City":"Cuiabá","State":"MT","Country":"BR","District":"Duque de Caxias"},"DeliveryAddress":{"Street":"Travessa Vinte e Cinco de Agosto","Number":"65","Complement":"Apto 903","ZipCode":"78043382","City":"Cuiabá","State":"MT","Country":"BR","District":"Duque de Caxias"}},"Payment":{"ServiceTaxAmount":0,"Installments":6,"Interest":0,"Capture":true,"Authenticate":false,"Recurrent":false,"CreditCard":{"CardNumber":"554906******6207","Holder":"CINTHYA GIRELLI ROSA MACHADO","ExpirationDate":"05/2025","SaveCard":false,"Brand":"Master"},"Tid":"102681432108E2R8MN8E","ProofOfSale":"323000","AuthorizationCode":"044371","SoftDescriptor":"BIOSTILO","Provider":"Cielo","Eci":"0","FraudAnalysis":{"Status":4,"StatusDescription":"Aborted","Sequence":"AuthorizeFirst","SequenceCriteria":"OnSuccess","TotalOrderAmount":48594,"TransactionAmount":0,"FingerPrintId":"d41d8cd98f00b204e9800998ecf8427e20201016231416","Cart":{"IsGift":false,"ReturnsAccepted":true,"Items":[{"Type":3,"Name":"Jaleco Heras","Risk":2,"Sku":"6612","OriginalPrice":0,"UnitPrice":20800,"Quantity":1,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0},{"Type":3,"Name":"Jaleco Lyra","Risk":2,"Sku":"6179","OriginalPrice":0,"UnitPrice":21200,"Quantity":1,"HostHedge":2,"NonSensicalHedge":2,"ObscenitiesHedge":2,"PhoneHedge":2,"TimeHedge":2,"VelocityHedge":0,"GiftCategory":2,"Weight":0,"CartType":0}]},"Browser":{"CookiesAccepted":true,"Email":"cinthyagirellimachado@gmail.com","Type":"mozilla/5.0 (macintosh; intel mac os x ","IpAddress":"187.123.1.151"},"CaptureOnLowRisk":true,"VoidOnHighRisk":true,"Provider":"Cybersource","IsRetryTransaction":false},"IsQrCode":false,"Amount":48594,"ReceivedDate":"2020-10-16 20:16:38","CapturedAmount":48594,"CapturedDate":"2020-10-16 20:16:38","Status":2,"IsSplitted":false,"ReturnMessage":"Transacao capturada com sucesso","ReturnCode":"00","PaymentId":"907e6589-107f-4fa5-9635-900ae910cf87","Type":"CreditCard","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/907e6589-107f-4fa5-9635-900ae910cf87"},{"Method":"PUT","Rel":"void","Href":"https://api.cieloecommerce.cielo.com.br/1/sales/907e6589-107f-4fa5-9635-900ae910cf87/void"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 556
+            [request_size] => 302
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 1.706095
+            [namelookup_time] => 0.004231
+            [connect_time] => 0.118983
+            [pretransfer_time] => 0.357518
+            [size_upload] => 1924
+            [size_download] => 2588
+            [speed_download] => 1516
+            [speed_upload] => 1127
+            [download_content_length] => 2588
+            [upload_content_length] => 1924
+            [starttransfer_time] => 0.477554
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 191.232.52.242
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.241.130.41
+            [local_port] => 49376
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClient:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+

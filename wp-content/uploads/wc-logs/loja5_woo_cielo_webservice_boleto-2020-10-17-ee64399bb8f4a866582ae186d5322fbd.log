@@ -1,0 +1,128 @@
+10-16-2020 @ 21:33:23 - Debug Cielo: Array
+(
+    [MerchantOrderId] => 00000014461
+    [Customer] => Array
+        (
+            [Name] => LUIS FERNANDO DOMENECH
+            [Identity] => 26224900892
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => AV DR AUGUSTO DE TOLEDO
+                    [Number] => 802
+                    [District] => SANTA PAULA
+                    [Complement] => APTO.71
+                    [ZipCode] => 09540080
+                    [City] => SAO CAETANO DO SUL
+                    [State] => SP
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => Boleto
+            [BoletoNumber] => 000030850
+            [Amount] => 35275
+            [Address] => DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP
+            [Assignor] => MANUSCRITO CONFECCOES EIRELI - ME
+            [Identification] => 11240412000115
+            [Provider] => BancodoBrasil2
+            [ExpirationDate] => 2020-10-22
+            [Instructions] => REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.
+        )
+
+)
+
+10-16-2020 @ 21:33:23 - Resultado: RestClient Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => 426b7f2b-19e4-4fee-aa06-5a061b9b6273
+                    [MerchantKey] => ZbxpGCnRgVd5FgSkvS7QcgXsnH2tsIyHitTu7Mee
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #919
+    [response] => [
+  {
+    "Code": 242,
+    "Message": "Required boleto data not supported"
+  }
+]
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json
+            [http_code] => 400
+            [header_size] => 415
+            [request_size] => 923
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.506029
+            [namelookup_time] => 0.004171
+            [connect_time] => 0.116622
+            [pretransfer_time] => 0.350791
+            [size_upload] => 644
+            [size_download] => 85
+            [speed_download] => 167
+            [speed_upload] => 1272
+            [download_content_length] => 85
+            [upload_content_length] => 644
+            [starttransfer_time] => 0.506
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 191.232.52.242
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.241.130.41
+            [local_port] => 49806
+        )
+
+    [error] => 
+    [status] => 400
+    [decoded_response] => 
+    [iterator_positon:RestClient:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+10-16-2020 @ 21:33:23 - Erro Cielo Pedido: 14461 em 17/10/2020 00:33:23
+10-16-2020 @ 21:33:23 - Mensagem: 242 - Required boleto data not supported
+10-16-2020 @ 21:33:23 - Log: Array
+(
+    [mensagem] => Required boleto data not supported
+    [codigo] => 242
+)
+

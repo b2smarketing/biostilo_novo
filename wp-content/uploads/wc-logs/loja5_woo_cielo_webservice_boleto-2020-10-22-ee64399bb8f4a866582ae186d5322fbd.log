@@ -1,0 +1,230 @@
+10-22-2020 @ 02:14:09 - Debug Cielo: Array
+(
+    [MerchantOrderId] => 00000014472
+    [Customer] => Array
+        (
+            [Name] => MARIANA CAMACHO MACHADO
+            [Identity] => 01577264525
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => RUA A
+                    [Number] => 6
+                    [District] => PARAISO
+                    [Complement] => No mercadinho JJ
+                    [ZipCode] => 44900000
+                    [City] => IRECE
+                    [State] => BA
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => Boleto
+            [BoletoNumber] => 000030859
+            [Amount] => 42310
+            [Address] => DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP
+            [Assignor] => MANUSCRITO CONFECCOES EIRELI - ME
+            [Identification] => 11240412000115
+            [Provider] => BancodoBrasil2
+            [ExpirationDate] => 2020-10-27
+            [Instructions] => REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.
+        )
+
+)
+
+10-22-2020 @ 02:14:09 - Resultado: RestClient Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => 426b7f2b-19e4-4fee-aa06-5a061b9b6273
+                    [MerchantKey] => ZbxpGCnRgVd5FgSkvS7QcgXsnH2tsIyHitTu7Mee
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #955
+    [response] => {"MerchantOrderId":"00000014472","Customer":{"Name":"MARIANA CAMACHO MACHADO","Identity":"01577264525","IdentityType":"CPF","Address":{"Street":"RUA A","Number":"6","Complement":"No mercadinho JJ","ZipCode":"44900000","City":"IRECE","State":"BA","Country":"BR","District":"PARAISO"}},"Payment":{"Instructions":"REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.","ExpirationDate":"2020-10-27","Url":"https://transaction.pagador.com.br/post/pagador/reenvia.asp/16ce741b-499b-40be-8f8a-2d14861bae85","BoletoNumber":"0000030859","BarCodeNumber":"","DigitableLine":"","Assignor":"MANUSCRITO CONFECCOES EIRELI - ME","Address":"DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP","Identification":"11240412000115","ProviderReturnCode":"0","ProviderReturnMessage":"Transação criada com sucesso","Bank":0,"Amount":42310,"ReceivedDate":"2020-10-22 02:14:08","Provider":"BancoDoBrasil2","Status":1,"IsSplitted":false,"ReturnMessage":"Transação criada com sucesso","ReturnCode":"0","PaymentId":"16ce741b-499b-40be-8f8a-2d14861bae85","Type":"Boleto","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/16ce741b-499b-40be-8f8a-2d14861bae85"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 530
+            [request_size] => 896
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 2.611684
+            [namelookup_time] => 1.510323
+            [connect_time] => 1.624698
+            [pretransfer_time] => 1.859875
+            [size_upload] => 617
+            [size_download] => 1206
+            [speed_download] => 461
+            [speed_upload] => 236
+            [download_content_length] => 1206
+            [upload_content_length] => 617
+            [starttransfer_time] => 2.611655
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 191.232.52.242
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.241.130.41
+            [local_port] => 40848
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClient:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
+10-22-2020 @ 20:27:17 - Debug Cielo: Array
+(
+    [MerchantOrderId] => 00000014491
+    [Customer] => Array
+        (
+            [Name] => EVERTON MESSIAS
+            [Identity] => 19549896870
+            [IdentityType] => CPF
+            [Address] => Array
+                (
+                    [Street] => ACOR 34
+                    [Number] => 34
+                    [District] => GARCIA
+                    [Complement] => 
+                    [ZipCode] => 13061100
+                    [City] => CAMPINAS
+                    [State] => SP
+                    [Country] => BR
+                )
+
+        )
+
+    [Payment] => Array
+        (
+            [Type] => Boleto
+            [BoletoNumber] => 000030860
+            [Amount] => 18910
+            [Address] => DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP
+            [Assignor] => MANUSCRITO CONFECCOES EIRELI - ME
+            [Identification] => 11240412000115
+            [Provider] => BancodoBrasil2
+            [ExpirationDate] => 2020-10-27
+            [Instructions] => REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.
+        )
+
+)
+
+10-22-2020 @ 20:27:17 - Resultado: RestClient Object
+(
+    [options] => Array
+        (
+            [headers] => Array
+                (
+                    [Content-Type] => application/json
+                    [Accept] => application/json
+                    [MerchantId] => 426b7f2b-19e4-4fee-aa06-5a061b9b6273
+                    [MerchantKey] => ZbxpGCnRgVd5FgSkvS7QcgXsnH2tsIyHitTu7Mee
+                    [RequestId] => 
+                )
+
+            [parameters] => Array
+                (
+                )
+
+            [curl_options] => Array
+                (
+                )
+
+            [user_agent] => PHP RestClient/0.1.4
+            [base_url] => https://api.cieloecommerce.cielo.com.br/1/
+            [format] => 
+            [format_regex] => /(\w+)\/(\w+)(;[.+])?/
+            [decoders] => Array
+                (
+                    [json] => json_decode
+                    [php] => unserialize
+                )
+
+            [username] => 
+            [password] => 
+        )
+
+    [handle] => Resource id #1724
+    [response] => {"MerchantOrderId":"00000014491","Customer":{"Name":"EVERTON MESSIAS","Identity":"19549896870","IdentityType":"CPF","Address":{"Street":"ACOR 34","Number":"34","Complement":"","ZipCode":"13061100","City":"CAMPINAS","State":"SP","Country":"BR","District":"GARCIA"}},"Payment":{"Instructions":"REALIZAR O PAGAMENTO ATE A DATA DE VENCIMENTO.","ExpirationDate":"2020-10-27","Url":"https://transaction.pagador.com.br/post/pagador/reenvia.asp/d4b0aee2-9c39-4979-9c9e-81e6e952cae0","BoletoNumber":"0000030860","BarCodeNumber":"","DigitableLine":"","Assignor":"MANUSCRITO CONFECCOES EIRELI - ME","Address":"DISTRITO INDUSTRIAL - SANTA BARBARA DOESTE SP","Identification":"11240412000115","ProviderReturnCode":"0","ProviderReturnMessage":"Transação criada com sucesso","Bank":0,"Amount":18910,"ReceivedDate":"2020-10-22 20:27:17","Provider":"BancoDoBrasil2","Status":1,"IsSplitted":false,"ReturnMessage":"Transação criada com sucesso","ReturnCode":"0","PaymentId":"d4b0aee2-9c39-4979-9c9e-81e6e952cae0","Type":"Boleto","Currency":"BRL","Country":"BRA","Links":[{"Method":"GET","Rel":"self","Href":"https://apiquery.cieloecommerce.cielo.com.br/1/sales/d4b0aee2-9c39-4979-9c9e-81e6e952cae0"}]}}
+    [headers] => 
+    [info] => stdClass Object
+        (
+            [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+            [content_type] => application/json; charset=utf-8
+            [http_code] => 201
+            [header_size] => 530
+            [request_size] => 877
+            [filetime] => -1
+            [ssl_verify_result] => 0
+            [redirect_count] => 0
+            [total_time] => 0.719324
+            [namelookup_time] => 0.252694
+            [connect_time] => 0.267245
+            [pretransfer_time] => 0.309923
+            [size_upload] => 598
+            [size_download] => 1187
+            [speed_download] => 1650
+            [speed_upload] => 831
+            [download_content_length] => 1187
+            [upload_content_length] => 598
+            [starttransfer_time] => 0.719297
+            [redirect_time] => 0
+            [redirect_url] => 
+            [primary_ip] => 191.232.52.242
+            [certinfo] => Array
+                (
+                )
+
+            [primary_port] => 443
+            [local_ip] => 192.168.0.4
+            [local_port] => 49172
+        )
+
+    [error] => 
+    [status] => 201
+    [decoded_response] => 
+    [iterator_positon:RestClient:private] => 
+    [url] => https://api.cieloecommerce.cielo.com.br/1/sales
+)
+
