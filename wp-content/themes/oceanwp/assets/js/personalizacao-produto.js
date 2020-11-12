@@ -10,6 +10,7 @@ function produtos(){
 function fechar(){  
     $("#quadro").css({'display':'none'});
     $("#site").css({"opacity":"1"});
+    $(".js-select-logo").css({'display':'block'})
 }
 
 // Ao clicar no campo de logos
@@ -24,9 +25,12 @@ $(document).on('click', '#quadro span', function(){
 });
 
 // Ao selecionar uma logo
-$(document).on('click', '.logo-bordado', function(){
-    $(".js-select-logo").css({'display':'block'})	
+$(document).on('click', '.logo-bordado', function(){	
 	var logoEscolhida = $(this).attr("data-value");
-    $(".js-select-logo").val(logoEscolhida).trigger("change");   
+    $(".js-select-logo").val(logoEscolhida).trigger("change");
+    $(".js-select-localizacao-div, .js-select-observacao-div").slideDown(500);
+    if(logoEscolhida == "Sem logo_0"){
+        $(".js-select-localizacao-div, .js-select-observacao-div").css({'display':'none'})
+    }
 	fechar();
 });

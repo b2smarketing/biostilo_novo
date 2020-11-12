@@ -85,3 +85,7 @@ body {
         left: 70%;
     }
   }
+
+  .js-select-localizacao-div, .js-select-observacao-div{
+      display:none;
+  }
