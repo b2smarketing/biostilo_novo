@@ -1,6 +1,13 @@
 // Opções para o logo (imagens)
 $(function(){
-	$('.js-select-logo .tc-select-option').hide();	
+    $('.js-select-logo .tc-select-option').hide(); 
+    
+    $(".product-inner .price").html(function(i, html){
+        return html.replace("–", "");
+    });
+
+    $(".product-inner .amount:nth-child(2)").html("");
+    
 });
 
 function produtos(){  
