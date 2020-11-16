@@ -1,5 +1,0 @@
-<IfModule mod_headers.c>
-    <FilesMatch "\.html[_a-z]*$">
-        Header unset Link
-    </FilesMatch>
-</IfModule>
