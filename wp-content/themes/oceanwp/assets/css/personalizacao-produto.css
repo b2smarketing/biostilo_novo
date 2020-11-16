@@ -84,11 +84,8 @@ body {
     #quadro span{
         left: 70%;
     }
-<<<<<<< HEAD
-=======
   }
 
   .js-select-localizacao-div, .js-select-observacao-div{
       display:none;
->>>>>>> db70b13cdd0b1e53eb6c139980c125fcd7613d9b
   }
