@@ -1,4 +1,5 @@
 // Opções para o logo (imagens)
+// algumas correções nas paginas feitas com JS
 $(function(){
     $('.js-select-logo .tc-select-option').hide(); 
     
@@ -11,6 +12,14 @@ $(function(){
     });
 
     $(".product-inner .amount:nth-child(2)").html("");
+
+    $(".single-page-article .entry").html(function(i, html){
+        return html.replace("[vc_row][vc_column][vc_column_text]", "");
+    });
+
+    $(".single-page-article .entry").html(function(i, html){
+        return html.replace("[/vc_column_text][/vc_column][/vc_row]", "");
+    });
     
 });
 
