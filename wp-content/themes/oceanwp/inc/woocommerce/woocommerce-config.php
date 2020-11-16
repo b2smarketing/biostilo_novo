@@ -36,14 +36,14 @@ if ( ! class_exists( 'OceanWP_WooCommerce_Config' ) ) {
 				add_action( 'woocommerce_after_main_content', array( $this, 'content_wrapper_end' ), 10 );
 
 				// Display correct sidebar for products
-				remove_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 10 );
-				add_filter( 'ocean_get_sidebar', array( $this, 'display_woo_sidebar' ) );
+				//remove_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 10 );
+				//add_filter( 'ocean_get_sidebar', array( $this, 'display_woo_sidebar' ) );
 
 				// Set correct post layouts
 				add_filter( 'ocean_post_layout_class', array( $this, 'layouts' ) );
 
 				// Set correct both sidebars layout style
-				add_filter( 'ocean_both_sidebars_style', array( $this, 'bs_class' ) );
+				//add_filter( 'ocean_both_sidebars_style', array( $this, 'bs_class' ) );
 
 				// Set correct mobile sidebar order
 				add_filter( 'ocean_sidebar_order', array( $this, 'sidebar_order' ) );

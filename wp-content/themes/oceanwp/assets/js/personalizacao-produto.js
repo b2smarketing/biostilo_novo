@@ -6,6 +6,10 @@ $(function(){
         return html.replace("–", "");
     });
 
+    $(".product-inner .amount:nth-child(1)").html(function(i, html){
+        return html.replace(/^/, "A partir de ");
+    });
+
     $(".product-inner .amount:nth-child(2)").html("");
     
 });
