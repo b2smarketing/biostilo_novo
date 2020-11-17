@@ -13,13 +13,13 @@ $(function(){
 
     $(".product-inner .amount:nth-child(2)").html("");
 
-    //$(".single-page-article .entry").html(function(i, html){
-    //    return html.replace("[vc_row][vc_column][vc_column_text]", "");
-    //});
+    $(".single-page-article .entry").html(function(i, html){
+        return html.replace("[vc_row][vc_column][vc_column_text]", "");
+    });
 
-    //$(".single-page-article .entry").html(function(i, html){
-    //    return html.replace("[/vc_column_text][/vc_column][/vc_row]", "");
-    //});
+    $(".single-page-article .entry").html(function(i, html){
+        return html.replace("[/vc_column_text][/vc_column][/vc_row]", "");
+    });
     
 });
 
