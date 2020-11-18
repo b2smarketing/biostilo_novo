@@ -10,12 +10,18 @@
  * @package OceanWP WordPress theme
  */
 
-get_header(); ?>
+get_header(); 
+
+if(is_front_page()){
+	
+?>
 
 <div id="slide">
 	<div class="slide-home"><?php echo do_shortcode('[rev_slider alias="home-slider"]'); ?></div>
 	<div class="slide-mobile"><?php echo do_shortcode('[rev_slider alias="mobile-slider"]'); ?></div>
 </div>
+
+<?php } ?>
 
 <?php do_action('ocean_before_content_wrap'); ?>
 
