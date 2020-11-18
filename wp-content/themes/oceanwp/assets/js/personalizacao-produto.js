@@ -1,6 +1,15 @@
 // Opções para o logo (imagens)
 // algumas correções nas paginas feitas com JS
 $(function(){
+
+    if($(window).width() > 600) {
+        $(".slide-home").css({'display':'block'});
+        $(".slide-mobile").css({'display':'none'});
+    }else{
+        $(".slide-home").css({'display':'none'});
+        $(".slide-mobile").css({'display':'block'});
+    }
+
     $('.js-select-logo .tc-select-option').hide(); 
     
     $(".product-inner .price").html(function(i, html){

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying all pages.
  *
@@ -11,47 +12,51 @@
 
 get_header(); ?>
 
-	<?php do_action( 'ocean_before_content_wrap' ); ?>
+<div id="slide">
+	<div class="slide-home"><?php echo do_shortcode('[rev_slider alias="home-slider"]'); ?></div>
+	<div class="slide-mobile"><?php echo do_shortcode('[rev_slider alias="mobile-slider"]'); ?></div>
+</div>
 
-	<div id="content-wrap" class="container clr">
+<?php do_action('ocean_before_content_wrap'); ?>
 
-		<?php do_action( 'ocean_before_primary' ); ?>
+<div id="content-wrap" class="container clr">
 
-		<div id="primary" class="content-area clr">
+	<?php do_action('ocean_before_primary'); ?>
 
-			<?php do_action( 'ocean_before_content' ); ?>
+	<div id="primary" class="content-area clr">
 
-			<div id="content" class="site-content clr">
+		<?php do_action('ocean_before_content'); ?>
 
-				<?php do_action( 'ocean_before_content_inner' ); ?>
+		<div id="content" class="site-content clr">
 
-				<?php
-				// Elementor `single` location.
-				if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'single' ) ) {
+			<?php do_action('ocean_before_content_inner'); ?>
 
-					// Start loop.
-					while ( have_posts() ) :
-						the_post();
+			<?php
+			// Elementor `single` location.
+			if (!function_exists('elementor_theme_do_location') || !elementor_theme_do_location('single')) {
 
-						get_template_part( 'partials/page/layout' );
+				// Start loop.
+				while (have_posts()) :
+					the_post();
 
-					endwhile;
+					get_template_part('partials/page/layout');
 
-				}
-				?>
+				endwhile;
+			}
+			?>
 
-				<?php do_action( 'ocean_after_content_inner' ); ?>
+			<?php do_action('ocean_after_content_inner'); ?>
 
-			</div><!-- #content -->
+		</div><!-- #content -->
 
-			<?php do_action( 'ocean_after_content' ); ?>
+		<?php do_action('ocean_after_content'); ?>
 
-		</div><!-- #primary -->
+	</div><!-- #primary -->
 
-		<?php do_action( 'ocean_after_primary' ); ?>
+	<?php do_action('ocean_after_primary'); ?>
 
-	</div><!-- #content-wrap -->
+</div><!-- #content-wrap -->
 
-	<?php do_action( 'ocean_after_content_wrap' ); ?>
+<?php do_action('ocean_after_content_wrap'); ?>
 
 <?php get_footer(); ?>
