@@ -73,16 +73,16 @@ body {
     position: relative;
     width: 145px;
     padding: 5px;
-    background-color: #13aff0;
-    border: 1px solid #13aff0;
+    background-color: #66D766;
+    border: 1px solid #66D766;
     color: #fff;  
     border-radius: 3px;
     margin-bottom: 20px;    
 }
 .tm-section-link:hover{
     background-color: #fff;
-    border: 1px solid #13aff0;
-    color: #13aff0;
+    border: 1px solid #66D766;
+    color: #66D766;
 }
 
 
