@@ -1,6 +1,18 @@
 // Opções para o logo (imagens)
 // algumas correções nas paginas feitas com JS
-$(function(){
+$(function(){   
+    
+    $(".woocommerce-shipping-calculator .shipping-calculator-button").html("<b>CONFIRME SEU CEP AQUI E CLIQUE EM <i>ATUALIZAR</i></b>");
+
+    $(".wc-proceed-to-checkout .checkout-button").css({"display":"none"});
+    $(".shipping-calculator-form button.button").click(function(){
+        var destino = $(".shipping-calculator-form #calc_shipping_postcode_field .input-text").val();
+        if(destino == ""){
+            $(".wc-proceed-to-checkout .checkout-button").css({"display":"none"});
+        }else{
+            $(".wc-proceed-to-checkout .checkout-button").slideDown(500);
+        }       
+    })    
 
     if($(window).width() > 600) {
         $(".slide-home").css({'display':'block'});
