@@ -1,6 +1,12 @@
 // Opções para o logo (imagens)
 // algumas correções nas paginas feitas com JS
-$(function(){   
+$(function(){
+    
+    $("#tmcp_select_5").change(()=>{        
+        $("#tmcp_select_6").val("");
+        $("#tmcp_select_7").val("");
+        $("#tmcp_select_8").val("");
+    })
     
     $(".woocommerce-shipping-calculator .shipping-calculator-button").html("<b>CONFIRME SEU CEP AQUI E CLIQUE EM <i>ATUALIZAR</i></b>");
 
