@@ -11,6 +11,17 @@
 <html class="<?php echo esc_attr(oceanwp_html_classes()); ?>" <?php language_attributes(); ?>>
 
 <head>
+
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-162058618-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+
+
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
